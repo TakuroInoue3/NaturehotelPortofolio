@@ -1,0 +1,53 @@
+.company-main {
+    max-width: 1000px;
+    margin: 100px auto 50px;
+    padding: 0 20px;
+}
+
+.company-main h1 {
+    text-align: center;
+    color: #2d5a27;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.company-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-table {
+    width: 100%;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+}
+
+.company-table th,
+.company-table td {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.company-table th {
+    width: 25%;
+    background: #f5f5f5;
+    text-align: left;
+    color: #2d5a27;
+    font-weight: bold;
+}
+
+.company-table td ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.company-table td ul li {
+    margin-bottom: 8px;
+}
+
+.company-map {
+    margin-top: 40px;
+}

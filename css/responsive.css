@@ -1,0 +1,137 @@
+/* タブレット向け (769px～1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .room-slider {
+        max-width: 90%;
+    }
+
+    .facility-item {
+        padding: 0 20px;
+    }
+
+    .food-items {
+        padding: 1rem;
+    }
+
+    .about-content {
+        width: 80%;
+        padding: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.1em;
+        line-height: 1.9;
+    }
+}
+
+
+/* スマートフォン向け (768px以下) */
+@media (max-width: 768px) {
+
+
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #fff;
+        transition: all 0.3s;
+        z-index: 1000;
+        box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav.active {
+        left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 80px 20px;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
+    #about {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .about-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .food-items {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .facility-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .facility-item:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .slider-button {
+        padding: 8px;
+    }
+
+    .room-selection {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .room-card img {
+        height: 180px;
+    }
+
+    .reservation-form {
+        padding: 10px;
+    }
+
+    .company-main {
+        padding: 0 15px;
+    }
+
+    .company-content {
+        padding: 80px 30px;
+
+    }
+
+    .company-table th,
+    .company-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .company-table th {
+        padding: 10px;
+    }
+
+    .company-map {
+        height: 300px;
+    }
+}

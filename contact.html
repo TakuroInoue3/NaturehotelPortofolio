@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vars.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- main.jsを読み込む -->
+    <script src="./js/main.js">
+    </script>
+    <title>お問い合わせ - 自然に浸れるお宿</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">当館について</a></li>
+                <li><a href="index.html#room">お部屋</a></li>
+                <li><a href="#food">お食事</a></li>
+                <li><a href="index.html#facility">施設案内</a></li>
+                <li><a href="index.html#news">お知らせ</a></li>
+            </ul>
+        </nav>
+        <a href="./reserve.html" class="btn-reserve">ご予約</a>
+    </header>
+
+    <main class="contact-main">
+        <h1>お問い合わせ</h1>
+
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前 <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">メールアドレス <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">電話番号</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">お問い合わせ項目 <span class="required">*</span></label>
+                    <select id="subject" name="subject" required>
+                        <option value="">選択してください</option>
+                        <option value="reservation">ご予約について</option>
+                        <option value="facility">施設について</option>
+                        <option value="food">お食事について</option>
+                        <option value="other">その他</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容 <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="form-group privacy-check">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">
+                        <a href="privacy-policy.html" target="_blank">プライバシーポリシー</a>に同意する
+                    </label>
+                </div>
+
+                <div class="form-button">
+                    <button type="submit" class="btn-submit">送信する</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="./faq.html">よくある質問</a>
+            <a href="./privacy-policy.html">プライバシーポリシー</a>
+            <a href="./company.html">会社概要</a>
+        </div>
+        <p>© 自然にひたるお宿</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="自然に囲まれた温泉旅館。露天風呂付き客室と地元食材を使用した料理をお楽しみください。">
+    <meta name="keywords" content="温泉,旅館,露天風呂,自然,癒し">
+    <link rel="stylesheet" href="./vars.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" href="./img/favicon.png">
+    <title>自然に浸れるお宿</title>
+</head>
+
+<body>
+    <header>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">当館について</a></li>
+                <li><a href="#room">お部屋</a></li>
+                <li><a href="#food">お食事</a></li>
+                <li><a href="#facility">施設案内</a></li>
+                <li><a href="#news">お知らせ</a></li>
+            </ul>
+        </nav>
+        <a href="./reserve.html" class="btn-reserve">ご予約</a>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content cssanimation leFadeInBottom sequence">
+                <p>ー　森の奥の別世界　ー</p>
+                <h1>自然にひたるお宿</h1>
+            </div>
+        </section>
+        <section id="about">
+            <h2>当館について</h2>
+            <video autoplay muted loop id="about-video">
+                <source src="../img/about.mp4" type="video/mp4">
+            </video>
+            <div class="about-content">
+                <p>清らかな渓流のせせらぎ<br>
+                    木々のざわめき 鳥たちの歌声<br>
+                    この場所でしか出会えない自然の調べ<br>
+                    心解き放つ 至福のひととき</p>
+            </div>
+            <div class="detail-button">
+                <a href="about.html" class="btn-detail">もっと読む</a>
+            </div>
+        </section>
+        <section id="room">
+            <h2>お部屋</h2>
+            <div class="room-slider">
+                <div class="slider-container">
+                    <div class="slide">
+                        <img src="../img/single.jpg" alt="凛の間">
+                        <div class="slide-content">
+                            <h3>凛の間</h3>
+                            <p>渓流を望む12畳和室。清らかな水音と共に過ごす静寂な時間</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="../img/double.jpg" alt="葉音の間">
+                        <div class="slide-content">
+                            <h3>葉音の間</h3>
+                            <p>木々に囲まれた特別室。さわやかな風と木漏れ日に包まれる空間</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/delux.jpg" alt="天月の間">
+                        <div class="slide-content">
+                            <h3>天月の間</h3>
+                            <p>山々を一望できる特別室。満天の星空と月光に癒される贅沢な時間</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-button prev">❮</button>
+                <button class="slider-button next">❯</button>
+            </div>
+            <div class="detail-button">
+                <a href="room.html" class="btn-detail">もっと読む</a>
+            </div>
+        </section>
+        <section id="food">
+            <h2>お食事</h2>
+            <div class="food-items">
+                <div class="food-item">
+                    <p>潮風の恵み</p>
+                    <img src="./img/seafood-image.jpg" alt="潮風の恵み">
+                </div>
+                <div class="food-item">
+                    <p>大地の力</p>
+                    <img src="./img/meat-image.jpg" alt="大地の力">
+                </div>
+                <div class="food-item">
+                    <p>山里の彩り</p>
+                    <img src="./img/vegetable-image.jpg" alt="山里の彩り">
+                </div>
+            </div>
+            <div class="detail-button">
+                <a href="food.html" class="btn-detail">もっと読む</a>
+            </div>
+        </section>
+        <section id="facility">
+            <h2>施設案内</h2>
+            <div class="facility-items">
+                <div class="facility-item">
+                    <img src="./img/open-air-bath.png" alt="客室露天風呂">
+                    <div class="facility-text">
+                        <h3>客室露天風呂</h3>
+                        <p>お部屋でゆったりと寛ぎながら、心も身体も温めることができます。大自然の中でお湯に浸る贅沢な体験を...</p>
+                    </div>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-text">
+                        <h3>個室サウナ</h3>
+                        <p>プライベートなサウナで誰も目も気にせずリラックスできます。水風呂は天然の湧き水から汲み取られたもので、大自然を感じることができます。</p>
+                    </div>
+                    <img src="./img/sauna.png" alt="個室サウナ">
+                </div>
+                <div class="facility-item">
+                    <img src="./img/animal.jpg" alt="自然/動物ふれあい">
+                    <div class="facility-text">
+                        <h3>自然/動物</h3>
+                        <p>お部屋から眺める絶景の大自然と、自然に暮らす動物たちとの触れ合いで、心からの癒しを...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <h2>お知らせ</h2>
+            <ul>
+                <li>
+                    <img src="./img/award.png" alt="Award">
+                    <p>2024/3/1 rekuten award No1を受賞しました</p>
+                </li>
+                <li>
+                    <img src="./img/sauna_canpain.jpg">
+                    <p>2024/1/1 フィンランドサウナキャンペーン実施</p>
+                </li>
+                <li>
+                    <img src="./img/sheep.png" alt="Sheep">
+                    <p>2023/12/10 ひつじの赤ちゃんが生まれました</p>
+                </li>
+            </ul>
+            <div class="detail-button">
+                <a href="./news.html" class="btn-detail">もっと読む</a>
+            </div>
+        </section>
+
+        <section id="access">
+            <h2>アクセス</h2>
+            <div class="access-content">
+                <img src="./img/map.png" alt="Map" class="access-map">
+                <div class="access-info">
+                    <!-- ここにアクセス情報を追加 -->
+                </div>
+            </div>
+        </section>
+
+        <div class="reservation-button">
+            <a href="./reserve.html" class="btn-reserve">お部屋を予約</a>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="./faq.html">よくある質問</a>
+            <a href="./privacy-policy.html">プライバシーポリシー</a>
+            <a href="./company.html">会社概要</a>
+        </div>
+        <p>© 自然にひたるお宿</p>
+    </footer>
+
+        <!-- main.jsを読み込む -->
+        <script src="./js/main.js">
+        </script>
+</body>
+
+</html>
