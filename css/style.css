@@ -205,7 +205,7 @@ main {
 
 /* ヒーローセクション */
 #hero {
-    background-image: url('./img/hero.jpg');
+    background-image: url('../img/hero.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
