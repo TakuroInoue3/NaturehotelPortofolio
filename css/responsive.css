@@ -95,9 +95,6 @@
         flex-direction: column-reverse;
     }
 
-    .slider-button {
-        padding: 8px;
-    }
 
     .room-selection {
         grid-template-columns: 1fr;

@@ -302,7 +302,6 @@ main {
 
 .food-item img {
     width: 95%;
-    height: 700px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -430,6 +429,11 @@ footer {
     padding: 2rem;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 .footer-links a {
     margin: 0 1rem;
     color: #333;
@@ -459,13 +463,16 @@ footer {
     width: 100%;
     height: 600px;
     object-fit: cover;
+    object-position: left;
+
 }
 
 .slide-content {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom:0px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
@@ -479,7 +486,7 @@ footer {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 15px;
+    padding: 100px 25px;
     cursor: pointer;
     z-index: 2;
 }
